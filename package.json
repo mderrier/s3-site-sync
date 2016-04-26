@@ -29,13 +29,28 @@
     "url": "https://github.com/afloyd/s3-site-sync/issues",
     "email": "texsc98@gmail.com"
   },
+  "bin": {
+    "s3-sync-lls": "./index.js"
+  },
   "dependencies": {
-    "aws-sdk": "2.2.x",
-    "bluebird": "2.9.x",
-    "file-magik": "^0.5.0",
-    "lodash": "3.10.x",
+    "aws-sdk": "^2.3.x",
+    "bluebird": "^3.3.x",
+    "bluebird-retry": "^0.6.1",
+    "deep-diff": "^0.3.3",
+    "eventemitter2": "^1.0.0",
+    "file-magik": "^1.0.0",
+    "human-size": "^1.1.0",
+    "lodash": "^4.11.x",
+    "loud-rejection": "^1.3.0",
+    "md5-file": "^2.0.4",
     "mime": "^1.3.4",
-    "shortid": "2.1.x"
+    "planify": "^1.2.0",
+    "progress-stream": "^1.2.0",
+    "progressbar-stream": "0.0.2",
+    "s3fs": "^2.4.5",
+    "shortid": "2.1.x",
+    "single-line-log": "^1.1.1",
+    "yargs": "^4.6.0"
   },
   "devDependencies": {}
 }
